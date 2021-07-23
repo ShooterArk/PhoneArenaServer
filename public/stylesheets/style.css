@@ -1,8 +1,45 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding-bottom: 5%;
 }
 
 a {
   color: #00B7FF;
+}
+
+.productContainer{
+  display: inline-block;
+  float: left;
+  width: 25%;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 4%;
+}
+
+.header{
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #00B7FF;
+}
+
+.description{
+  margin-bottom: 3%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sourceCode{
+  text-align: center;
+  font-weight: bold;
+}
+
+.marginBottom{
+  margin-bottom: 5%;
+}
+
+.productName {
+  padding: 1%;
+  font-size: 20px ;
 }

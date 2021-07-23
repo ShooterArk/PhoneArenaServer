@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1(class="header")= title 
+
+  p(class="description")= description
+
+  p(class="sourceCode") #{"NodeJs:" + sourceCode}
+  p(class="sourceCode") #{"ReactNative: " + rnSourceCode}
+
+  p(class="marginBottom")
+
+  for product in products
+    div(class="productContainer")
+      img(class="productImage", src="./images/" + product.imageFileName)
+      p(class="productName") #{product.name}
