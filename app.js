@@ -6,7 +6,6 @@ var logger = require('morgan');
 var cors = require('cors')
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
 
 var app = express();
 app.use(cors())
@@ -19,7 +18,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get("/", function(req, res){
     res.send("welcome to phone arena server");
 })
-app.use('/users', usersRouter);
+
 app.use('/phones', indexRouter);
 
 
