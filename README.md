@@ -21,5 +21,9 @@ A Nodejs Server to provide phone data to Phone Arena mobile agent.
 ### Mobile Agent
 You can test the server with our mobile agent, https://github.com/ShooterArk/RNPhoneArena
 
+
+### Demo App
+You can access the app over here: https://phonearena-server.herokuapp.com/
+
 That's it! Please ping me if you want to contribute.
 
